@@ -1,0 +1,20 @@
+{
+  "name": "Giggin",
+  "version": "0.0.1",
+  "description": "Giggin - find a gig!",
+  "repository": "https://github.com/jacekschae/learn-reagent-course-files.git",
+  "scripts": {
+    "dev": "shadow-cljs watch app;",
+    "release": "shadow-cljs release app;",
+    "clean": "rm -rf target; rm -rf public/js;"
+  },
+  "devDependencies": {
+    "shadow-cljs": "^2.3.30"
+  },
+  "dependencies": {
+    "create-react-class": "^15.6.3",
+    "firebase": "^4.13.1",
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2"
+  }
+}
