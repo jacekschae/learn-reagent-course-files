@@ -22,7 +22,7 @@ $ cd learn-reagent-course-files/giggin/
 learn-reagent-course-files/giggin/ $ npm install
 ```
 
-or
+or with yarn
 
 ```shell
 learn-reagent-course-files/giggin/ $ yarn install
@@ -34,7 +34,7 @@ learn-reagent-course-files/giggin/ $ yarn install
 learn-reagent-course-files/giggin/ $ npm run dev
 ```
 
-or
+or with yarn
 
 ```shell
 learn-reagent-course-files/giggin/ $ yarn dev
