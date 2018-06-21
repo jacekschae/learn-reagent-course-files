@@ -39,3 +39,7 @@ or with yarn
 ```shell
 learn-reagent-course-files/giggin/ $ yarn dev
 ```
+
+## License
+
+Copyright © 2018 Jacek Schae
