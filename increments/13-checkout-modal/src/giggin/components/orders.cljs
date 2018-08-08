@@ -40,5 +40,5 @@
            [:div.price (format-price (total))]]
           [:button.btn.btn--link.tooltip
            {:data-tooltip "Remove all"
-            :on-click #(remove-all-orders)}
+            :on-click remove-all-orders}
            [:i.icon.icon--delete]]]]])]))
