@@ -11,11 +11,11 @@
     "clean-win": "rmdir /s /q public/js & rmdir /s /q target"
   },
   "devDependencies": {
-    "shadow-cljs": "^2.3.30"
+    "shadow-cljs": "2.3.30"
   },
   "dependencies": {
-    "create-react-class": "^15.6.3",
-    "react": "^16.3.2",
-    "react-dom": "^16.3.2"
+    "create-react-class": "15.6.3",
+    "react": "16.3.2",
+    "react-dom": "16.3.2"
   }
 }
