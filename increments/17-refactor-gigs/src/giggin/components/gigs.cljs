@@ -15,12 +15,13 @@
                        (swap! modal assoc :active active)
                        (reset! values gig))
         upsert-gig (fn [{:keys [id title desc price img sold-out]}]
-                     (swap! state/gigs assoc id {:id (or id (str "gig-" (random-uuid)))
-                                                 :title (str/trim title)
-                                                 :desc (str/trim desc)
-                                                 :img (str/trim img)
-                                                 :price (js/parseInt price)
-                                                 :sold-out sold-out})
+                     (let [id (or id (str "gig-" (random-uuid)))]
+                       (swap! state/gigs assoc id {:id id
+                                                   :title (str/trim title)
+                                                   :desc (str/trim desc)
+                                                   :img (str/trim img)
+                                                   :price (js/parseInt price)
+                                                   :sold-out sold-out}))
                      (toggle-modal {:active false :gig {}}))]
     (fn
       []
